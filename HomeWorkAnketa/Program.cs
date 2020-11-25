@@ -88,6 +88,7 @@ namespace HomeWorkAnketa
 
 
             ////4.а Программа по обмену значениями двух переменных с помощью третьей 
+            ///
             //Console.WriteLine("Вас приветсвует программа по обмену значениями переменных a и b");
             //Console.Write("Введите значение для переменной а: ");
             //int a = Convert.ToInt32(Console.ReadLine());
@@ -101,6 +102,7 @@ namespace HomeWorkAnketa
             //Console.ReadKey();
 
             ////4.б Программа по обмену значениями двух переменных без третьей переменной
+            ///
             //Console.WriteLine("Вас приветсвует программа по обмену значениями переменных a и b с помощью метода");
             //Console.Write("Введите значение для переменной а: ");
             //int a1 = Convert.ToInt32(Console.ReadLine());
@@ -114,7 +116,7 @@ namespace HomeWorkAnketa
             //Console.WriteLine("a = " + a1 + "\n" + "b = " + b1);
             //Console.ReadKey();
 
-            ////5.a 
+            ////5.a.б.в
             
             //String fio, city;
             //fio = "Максим Жмачиснкий";
