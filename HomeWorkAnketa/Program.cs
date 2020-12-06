@@ -119,7 +119,7 @@ namespace HomeWorkAnketa
             ////5.a.б.в
             
             //String fio, city;
-            //fio = "Максим Жмачиснкий";
+            //fio = "Максим Жмачиснкий!";
             //city = "Санкт-Петербург";
             //Console.WriteLine(fio + " " + "\n" + city);
             //Print(fio, ConsoleColor.Red, ConsoleColor.Yellow);
