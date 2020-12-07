@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorkAnketa", "HomeWorkA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork04", "HomeWork04\HomeWork04.csproj", "{D7068D8D-585C-493B-85F8-EC130B4D3169}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArrayLib", "..\My Libraries\MyArrayClass\MyArrayClass\MyArrayLib.csproj", "{011B4545-722B-4F9F-BADD-CF381FB10692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7068D8D-585C-493B-85F8-EC130B4D3169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7068D8D-585C-493B-85F8-EC130B4D3169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7068D8D-585C-493B-85F8-EC130B4D3169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011B4545-722B-4F9F-BADD-CF381FB10692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011B4545-722B-4F9F-BADD-CF381FB10692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011B4545-722B-4F9F-BADD-CF381FB10692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011B4545-722B-4F9F-BADD-CF381FB10692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

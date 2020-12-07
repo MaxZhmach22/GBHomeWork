@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Array.txt" />
+    <Content Include="LoginPassword.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\My Libraries\MyArrayClass\MyArrayClass\MyArrayLib.csproj">
+      <Project>{011b4545-722b-4f9f-badd-cf381fb10692}</Project>
+      <Name>MyArrayLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
