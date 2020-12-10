@@ -8,6 +8,7 @@ namespace HomeWork05
 {
     class Program
     {
+
         public static string LoginLength(string x) // a) Выполним первую проверку на длину логина.
         {
             do 
