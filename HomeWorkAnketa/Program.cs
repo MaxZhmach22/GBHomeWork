@@ -45,8 +45,9 @@ namespace HomeWork05
         } 
 
         public static bool LoginCheckRegex(string x) // б) **Проверяем корректность данных с помощью регулярных выражений
+        
         {
-            Regex checkReg = new Regex(@"^\D{1}[A-Za-z0-9]{1,9}$");
+            Regex checkReg = new Regex(@"[^\d][A-Za-z0-9]{1,9}");
             return checkReg.IsMatch(x);
         }
 
@@ -70,11 +71,11 @@ namespace HomeWork05
             string login = Console.ReadLine();
 
             //Проверяем длину логина методом LoginLength
-            login = LoginLength(login);
+            string login1 = LoginLength(login);
 
             //Проверяем корректность данных и возвращаем строку либо с ошибкой либо с удачной проверкой.
-            login = LoginCheck(login);
-            Console.WriteLine("\n" + login);
+            login1 = LoginCheck(login);
+            Console.WriteLine("\n" + login1);
 
             //Проверяем корректность данных с помощью регулярных выражений
             bool checkLogin = LoginCheckRegex(login);
