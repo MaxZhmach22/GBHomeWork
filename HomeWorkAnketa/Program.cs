@@ -24,7 +24,6 @@ namespace HomeWork05
                 }
             }
             while (x.Length < 2 || x.Length > 10);
-            
             return x;
         }
 
